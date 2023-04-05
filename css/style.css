@@ -55,7 +55,7 @@ table {
 
 html{
 	scroll-behavior: smooth;
-	font-family: monospace;
+	font-family: 'Roboto Mono', monospace;
 }
 
 /* navbar */
@@ -289,6 +289,7 @@ header{
 		height: 700px;
 	}
 
+	/* project */
 	.project-info{
 		display: flex;
 		flex-direction: column;
@@ -326,5 +327,10 @@ header{
 		flex-direction: column;
 		align-items: center;
 		padding-top: 70px;
+	}
+
+	/* credbar */
+	.credit p{
+		padding-right: 20px;
 	}
 }
