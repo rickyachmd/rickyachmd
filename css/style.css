@@ -124,7 +124,7 @@ header{
 	bottom: 100px;
 	white-space: nowrap;
 	overflow: hidden;
-	animation: typing 3s steps(12) alternate infinite,
+	animation: typing 3s steps(13) alternate infinite,
 	cursor .4s step-end alternate infinite;
 }
 
@@ -133,7 +133,7 @@ header{
 		width: 0px;
 	}
 	to{
-		width: 290px;
+		width: 310px;
 	}
 	
 }
