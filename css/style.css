@@ -55,7 +55,7 @@ table {
 
 html{
 	scroll-behavior: smooth;
-	font-family: consolas;
+	font-family: monospace;
 }
 
 /* navbar */
