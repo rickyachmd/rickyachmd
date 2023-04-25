@@ -147,7 +147,7 @@ header{
 #about{
     background-color: black;
     color: gray;
-    padding: 60px 40px 0px 40px;
+    padding: 60px 80px 0px 80px;
 }
 .about-title{
     font-size: 40px;
@@ -162,7 +162,7 @@ header{
 #project{
 	background-color: black;
     color: gray;
-	padding: 150px 40px 0px 40px;
+	padding: 150px 80px 0px 80px;
 }
 .project-title{
 	font-size: 40px;
@@ -174,7 +174,7 @@ header{
 	font-size: 20px;
 }
 .project-list video{
-	width: 720px;
+	width: 660px;
 }
 .project-info{
 	display: flex;
@@ -184,34 +184,36 @@ header{
 .project-info h1{
 	color: white;
 	font-size: 70px;
+	padding-top: 60px;
 }
 .project-info h2{
 	font-size: 30px;
 	padding-top: 20px;
 }
 .project-info a{
-	font-size: 40px;
+	font-size: 30px;
 	padding-top: 50px;
 	color: white;
 	text-decoration-color: white;
 	text-shadow: 0px 0px 9px white;
+	width: fit-content;
 }
 .project-list1{
 	display: flex;
 }
 .project-list2{
 	display: flex;
-	padding-top: 70px;
+	padding-top: 120px;
 }
 .project-list3{
 	display: flex;
-	padding-top: 70px;
+	padding-top: 120px;
 }
 
 /* contact */
 #contact{
 	background-color: black;
-	padding: 150px 40px 90px 40px;
+	padding: 150px 80px 90px 80px;
 }
 .contact-title{
 	font-size: 40px;
@@ -240,9 +242,11 @@ header{
 }
 .contact p{
 	color: white;
-	font-size: 30px;
+	font-size: 20px;
 	width: fit-content;
-	animation: blinks .5s infinite;
+}
+.contact p:hover{
+	animation: blinks .1s infinite;
 }
 @keyframes blinks{
 	25%{color: black; background-color: white;}
@@ -289,7 +293,17 @@ header{
 		height: 700px;
 	}
 
+	/* about */
+	#about{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
 	/* project */
+	#project{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 	.project-info{
 		display: flex;
 		flex-direction: column;
@@ -327,6 +341,12 @@ header{
 		flex-direction: column;
 		align-items: center;
 		padding-top: 70px;
+	}
+
+	/* contact */
+	#contact{
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 
 	/* credbar */
