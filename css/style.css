@@ -80,14 +80,14 @@ header{
 }
 .navbar a{
 	color: white;
-	text-decoration-color: white;
+	text-decoration:none;
 	margin: 10px 40px 10px 40px;
 	height: fit-content;
 }
 .navbar a:hover{
 	background: white;
 	color: black;
-	text-decoration-color: black;
+	transition: color .25s ease-in-out, background .3s ease-in-out;
 }
 .navbar{
 	display: flex;
@@ -213,7 +213,7 @@ header{
 /* contact */
 #contact{
 	background-color: black;
-	padding: 150px 80px 90px 80px;
+	padding: 150px 80px 80px 80px;
 }
 .contact-title{
 	font-size: 40px;
